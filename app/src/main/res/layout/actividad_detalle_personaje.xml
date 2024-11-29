@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadDetallePersonaje">
+
+    <!-- Imagen grande del personaje -->
+    <ImageView
+        android:id="@+id/imagenPersonajeDetalle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,1:1"
+        android:src="@drawable/toad"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nombrePersonajeDetalle" />
+
+    <!-- Nombre del personaje -->
+    <TextView
+        android:id="@+id/nombrePersonajeDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mario"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/imagenPersonajeDetalle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Descripción del personaje -->
+    <TextView
+        android:id="@+id/descripcionPersonajeDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Héroe del Reino Champiñón"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/nombrePersonajeDetalle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Botón de editar -->
+    <Button
+        android:id="@+id/editarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionPersonajeDetalle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- TextView centrado debajo del botón de editar -->
+    <TextView
+        android:id="@+id/textViewDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles del personaje"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/editarButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

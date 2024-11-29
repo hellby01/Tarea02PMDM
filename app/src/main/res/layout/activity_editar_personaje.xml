@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadEditarPersonaje">
+
+    <!-- EditText para el nombre del personaje -->
+    <EditText
+        android:id="@+id/editarNombrePersonaje"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo nombre"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- EditText para la descripción del personaje -->
+    <EditText
+        android:id="@+id/editarDescripcionPersonaje"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nueva descripción"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/editarNombrePersonaje"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Botón para guardar cambios -->
+    <Button
+        android:id="@+id/guardarCambiosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cambios"
+        app:layout_constraintTop_toBottomOf="@id/editarDescripcionPersonaje"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- TextView centrado en la pantalla -->
+    <TextView
+        android:id="@+id/textViewDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles del personaje"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

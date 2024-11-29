@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_ajustes"
+        android:title="Ajustes" />
+
+    <item
+        android:id="@+id/nav_idioma"
+        android:title="Idioma">
+
+        <!-- Switch para cambiar el idioma -->
+        <menu>
+            <item
+                android:id="@+id/switch_idioma"
+                android:title="Cambiar idioma"
+                android:actionViewClass="android.widget.Switch" />
+        </menu>
+    </item>
+</menu>

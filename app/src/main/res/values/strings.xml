@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Títulos -->
+    <string name="app_name">Mario App</string>
+
+    <!-- Mensajes y textos -->
+    <string name="editar_button">Editar</string>
+    <string name="nombre_personaje">Nombre del personaje</string>
+    <string name="descripcion_personaje">Descripción del personaje</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="detalles_personaje">Detalles del personaje</string>
+    <string name="toast_guardado">Cambios guardados</string>
+    <string name="toast_error_guardado">No se pudieron guardar los cambios</string>
+    <string name="mario_name">Mario</string>
+    <string name="luigi_name">Luigi</string>
+    <string name="peach_name">Peach</string>
+    <string name="toad_name">Toad</string>
+    <string name="mario_description">El fontanero mas saltarin</string>
+    <string name="peach_description">El hermano del fontanero</string>
+    <string name="luigi_description">La princesa a la que salva el fontanero</string>
+    <string name="toad_description">La seta que aconseja a la princesa</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+</resources>

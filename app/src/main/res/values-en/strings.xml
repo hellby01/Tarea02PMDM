@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Mario App</string>
+
+    <!-- Messages and texts -->
+    <string name="editar_button">Edit</string>
+    <string name="nombre_personaje">Character Name</string>
+    <string name="descripcion_personaje">Character Description</string>
+    <string name="guardar_cambios">Save Changes</string>
+    <string name="detalles_personaje">Character Details</string>
+    <string name="toast_guardado">Changes saved</string>
+    <string name="toast_error_guardado">Could not save changes</string>
+    <string name="mario_name">Mario</string>
+    <string name="luigi_name">Luigi</string>
+    <string name="peach_name">Peach</string>
+    <string name="toad_name">Toad</string>
+    <string name="mario_description">The most jumpy plumber</string>
+    <string name="luigi_description">The plumbers brother</string>
+    <string name="peach_description">The princess the plumber saves</string>
+    <string name="toad_description">The mushroom who advises the princess</string>
+</resources>
